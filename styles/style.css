@@ -5,17 +5,34 @@
     gap: 20px;
 }
 
+body {
+    background-color: linear-gradient(65deg, blue, red);
+    background-image: url(../assets/8ball-space.jpeg), url(../assets/checker.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+   justify-content: center;
+}
+
+
 .header {
     display: flex;
     justify-content: center;
     font-size: 50px;
     margin-bottom: 100px;
+    color: rgba(255, 255, 255, 0.774);
+    text-shadow: rgb(204, 15, 204) 3px 3px;
 }
 
 .message {
     display: flex;
     justify-content: center;
     font-size: 50px;
+    color: rgba(255, 255, 255, 0.877);
+    text-shadow: orangered 3px 3px;
+    border: lightskyblue 3px solid;
+    border-radius: 8em;
+    padding: 15px;
 }
 
 input {
@@ -24,7 +41,8 @@ input {
     text-align: center;
     font-size: 25px;
     border-radius: 20px;
-    border: orangered 2px dotted
+    border: orangered 2px dotted;
+    color: lightskyblue;
 }
 
 button {
@@ -33,4 +51,10 @@ button {
     font-size: 25px;
     border-radius: 20px;
     border: orangered 2px solid;
+    color:orangered;
+}
+
+button:hover {
+    background-color:lightskyblue;
+    color: orangered;
 }
