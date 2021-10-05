@@ -1,14 +1,15 @@
 export const answers = [
-    'Yes',
+    'Absolutely',
     'As, I see it, yes',
     'Without a doubt',
-
+    "Don't you worry child",
     'Ehhh...Maybe?',
     'You better ask again later...',
     'Too sleepy. Ask again tomorrow',
-
+    "I don't really even care tbh",
     'Seriously?',
-    'That is without doubt outside of my knowledge',
+    'That is without doubt, outside of my knowledge',
     'How could I possibly even know that?',
-
+    'No.',
+    'Go ask somebody else',
 ];
