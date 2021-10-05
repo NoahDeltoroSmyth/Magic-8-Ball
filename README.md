@@ -1,5 +1,22 @@
 # Alchemy Bootstrap Template
 
+## Magic 8 Ball Plan
+
+### What HTML elements do I need?
+* Text area for input (static)
+* Button (static)
+* Paragraph to display answer (dynamic)
+### What state do I need?
+* answer
+*randomIdx
+
+### What events am I listening for? What happens when those events are fired?
+* Button click
+    - Get random Index value
+    - Get random answer
+    - Display answer
+
+
 ## Making a plan
 
 (bolded steps are mandatory, unbolded are for more advanced projects)
