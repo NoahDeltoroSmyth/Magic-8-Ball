@@ -1,5 +1,16 @@
 import { answers } from './answers.js';
 
+const userQuestion = document.getElementById('user-question');
+const Button = document.getElementById('answer-button');
+const answerMessage = document.getElementById('answer-message');
+
+
+
+
+Button.addEventListener('click', ()=>{
+
+});
+
 const colors = ['red', 'white', 'blue'];
 
 
